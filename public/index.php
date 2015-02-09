@@ -94,20 +94,14 @@
         <a class="twitter-timeline" href="https://twitter.com/search?q=%23ssma" data-widget-id="302179477889351680">Tweets about "#ssma"</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><br>  
         </div>
-        <div id="recent-feed">
-          <h3>Recent SSMA coverage</h3>
-          <ul>
-            <li><a href="">Headline</a></li>
-            <li><a href="">Headline</a></li>
-            <li><a href="">Headline</a></li>
-            <li><a href="">Headline</a></li>
-          </ul>
-        </div>
+        <!-- recent stories -->
+        <div id="headlines"></div>
       </div>
       <div class="col-xs-4">
         <h3>Nominations</h3>
         <div class="pull-right" style="margin-left:10px;"><img src="assets/appicon.png"></div>
-        <p>Lucas ipsum dolor sit amet coway reach jade yuvernian gank echani secura vella bertroff kal. Duros thistleborn annoo jabba leia stele calrissian. Coruscant winter cerean yuzzem. Gerb aruzan binks shadda massans gallia sing skywalker teek. Dexter bollux shmi malastare mirialan. Dexter mimbanite tc-14 coruscant dak sly hoojib lama dressellian. Aparo quinlan gunray tsavong maris. Durge lowbacca tyber gamorrean argazdan. Ken tavion shi'ido rattatak. Palpatine gen'dai sith omas. Skakoan sanyassan calamari hutt freedon skirata roonan dooku moff.</p>
+            <p> Use our <a href="nominate.php">online nomination form</a> to nominate your favorite person, company or group for a Statesman Social Media Award, and tell us why they are a star on social media and the web – or <a href="search.php">comment on the nominees</a> that have already been made! We are accepting nominees from <strong>XX to XX, 2015</strong>. We'll pick a top 10 and an overall winner, who will be featured in an article in the Austin American-Statesman.</p>
+            <p>All of our past winners came from public nominations, and it's no different this year. However, we do ask that nominees reside in Bastrop, Blanco, Caldwell, Hays, Travis and Williamson counties. Past winners are eligible to be nominated again. Check out the 2014 <a href="http://www.statesman.com/news/lifestyles/rooster-teeth-wins-statesmans-top-social-media-hon/nd6Xf/">top winner</a> and <a href="http://www.statesman.com/news/lifestyles/allens-boots-homeaway-among-10-statesman-social-me/nd6Zz/">finalists</a>.</p>
       </div>
       <div class="col-xs-4">
         <h3>Search and comment</h3>
@@ -137,6 +131,35 @@
     <?php include "includes/metrics.inc"; ?>
 
     <script src="dist/scripts.js"></script>
+
+
+<script type="text/javascript">
+  var myURL = "json/getjson.php?count=20&topic=" + encodeURIComponent('ssma');
+
+  $.getJSON(myURL,buildOutput);
+
+  var feedOutput = '';
+
+  function buildOutput(data) {
+        // TEST IF WORTH DOING
+        if (data.entities.length === 0) {
+          return;
+        }
+        // INIT
+        feedOutput = '<h3>Recent coverage</h3><ul>';
+        
+        // LOOP THROUGH FEED ITEMS
+        for(var i=0;i<data.entities.length;i++) {
+            feedOutput += '<li><a href="'+data.entities[i].canonical_url+'" target="_blank">';
+            feedOutput += data.entities[i].headline;
+            feedOutput += '</a></li>';
+        }
+        feedOutput += '</ul>';
+        $('#headlines').html(feedOutput);
+  }
+
+</script>
+
 
 </div>
 
