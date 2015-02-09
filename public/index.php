@@ -66,7 +66,9 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="./">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
+        <li><a href="nominate.php">Nominate</a></li>
+        <li><a href="search.php">Search & Comment</a></li>
+        <li><a href="rules.php">Rules</a></li>
       </ul>
         <ul class="nav navbar-nav navbar-right social hidden-xs">
           <li><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a></li>
