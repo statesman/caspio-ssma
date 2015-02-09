@@ -95,7 +95,40 @@
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><br>  
         </div>
         <!-- recent stories -->
-        <div id="headlines"></div>
+        <div id="headlines">
+                  
+        <!-- feed -->
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript">
+        var RSS_feed = "http://www.statesman.com/flist/news/local/statesman-social-media-awards-coverage/fpC/rss/"
+            google.load("feeds", "1");
+            function initialize() {
+              var feed = new google.feeds.Feed(RSS_feed);
+            feed.setNumEntries(20);
+              feed.load(function(result) {
+                if (!result.error) {
+                  var container = document.getElementById("feed");
+                  for (var i = 0; i < result.feed.entries.length; i++) {
+              var entry = result.feed.entries[i];
+              var li = document.createElement("li");
+              li.innerHTML = '<a href="' + entry.link + '">' + entry.title + '</a>';
+              container.appendChild(li);
+                  }
+                }
+              });
+            }
+            google.setOnLoadCallback(initialize);
+        
+        document.write("<h3>Recent SSMA coverage<\/h3>");
+        document.write("<div id=\"medleycontent\">");
+        document.write("  <ul id=\"feed\">");
+        document.write("  <\/ul>");
+        document.write("<\/div>");
+        </script>
+        <!-- end feed -->
+        
+     
+        </div>
       </div>
       <div class="col-xs-4">
         <h3>Nominations</h3>
@@ -133,33 +166,7 @@
     <script src="dist/scripts.js"></script>
 
 
-<script type="text/javascript">
-  var myURL = "json/getjson.php?count=20&topic=" + encodeURIComponent('ssma');
-
-  $.getJSON(myURL,buildOutput);
-
-  var feedOutput = '';
-
-  function buildOutput(data) {
-        // TEST IF WORTH DOING
-        if (data.entities.length === 0) {
-          return;
-        }
-        // INIT
-        feedOutput = '<h3>Recent coverage</h3><ul>';
-        
-        // LOOP THROUGH FEED ITEMS
-        for(var i=0;i<data.entities.length;i++) {
-            feedOutput += '<li><a href="'+data.entities[i].canonical_url+'" target="_blank">';
-            feedOutput += data.entities[i].headline;
-            feedOutput += '</a></li>';
-        }
-        feedOutput += '</ul>';
-        $('#headlines').html(feedOutput);
-  }
-
-</script>
-
+     
 
 </div>
 
