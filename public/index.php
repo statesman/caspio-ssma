@@ -7,9 +7,9 @@
   $meta = array(
     "title" => "2015 Statesman Social Media Awards | Statesman.com",
     "description" => "The Austin American-Statesman is honoring the best in social media in Central Texas. Use our online nomination form to nominate your favorite person, company or group for a Statesman Social Media Award.",
-    "thumbnail" => "http://projects.statesman.com/then-and-now/paramount/assets/share.png",
-    "shortcut_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.austin360.com_8bc327bbc45a4eafb5625408192c5ff6.ico",
-    "apple_touch_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.austin360.com_f8a58f8e57d54874ae0ca9737688ca06.png",
+    "thumbnail" => "http://projects.statesman.com/then-and-now/paramount/assets/share.png", // needs update
+    "shortcut_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_5126cb2068bd43d1ab4e17660ac48255.ico",
+    "apple_touch_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_fa2d2d6e73614535b997734c7e7d2287.png",
     "url" => "http://projects.statesman.com/ssma/",
     "twitter" => "statesman"
   );
@@ -41,8 +41,7 @@
   <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,300italic,400italic,700italic,700,800,800italic' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
-
+ 
 
   <?php /* CMG advertising and analytics */ ?>
   <?php include "includes/advertising.inc"; ?>
@@ -60,14 +59,14 @@
         <span class="icon-bar"></span>
       </button>
 
-        <a class="navbar-brand" href="http://www.austin360.com/" target="_blank">
-          <img width="122" height="50" src="assets/logo_austin360_color.png">
+        <a class="navbar-brand" href="http://www.statesman.com/" target="_blank">
+          <img width="273" height="26" src="assets/logo.png">
         </a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="./">Quick Search <span class="sr-only">(current)</span></a></li>
-        <li><a href="search.php">Advanced Search</a></li>
+        <li class="active"><a href="./">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
       </ul>
         <ul class="nav navbar-nav navbar-right social hidden-xs">
           <li><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a></li>
@@ -82,19 +81,12 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 header">
-      <h1 id="pagetitle">SXSW Side Parties</h1>
+      <h1 id="pagetitle">Statesman Social Media Awards</h1>
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-sm-6">
-            <div id="cbe76c0000ae4003e0a29c41838db2"><!-- 2015 version --></div>
-            <script type="text/javascript" src="http://b1.caspio.com/scripts/e1.js"></script>
-            <script type="text/javascript">try{f_cbload("e76c0000ae4003e0a29c41838db2","http:");}catch(v_e){;}</script>
-            <div id="cxkg"><a href="http://b1.caspio.com/dp.asp?AppKey=e76c0000ae4003e0a29c41838db2">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
-        <?php include "includes/about.inc";?>
-     </div>
-      <div class="col-xs-12 col-sm-6">
-        <?php include "includes/promo.inc"; ?>
+      <div class="col-xs-12">
+        <p>content</p>
       </div>
     </div>
 
