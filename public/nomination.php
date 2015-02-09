@@ -82,42 +82,50 @@
     <div class="row">
       <div class="col-lg-12 header">
       <h1 id="pagetitle">Statesman Social Media Awards</h1>
-      <p>Lucas ipsum dolor sit amet boba calrissian amidala sith dooku solo moff organa obi-wan windu. Gamorrean binks wedge darth. Mon darth mon kit ponda solo. Moff watto ackbar mothma moff anakin. Lando skywalker lars fett calrissian lars organa. Organa kenobi wedge darth jawa skywalker anakin. Twi'lek kit darth calamari lando kamino droid. Darth jawa fett grievous maul. Palpatine obi-wan leia tusken raider dagobah. Twi'lek qui-gon boba antilles yoda thrawn. Wampa luuke wampa skywalker. Moff ponda ackbar dagobah kit lobot jinn solo.</p>
+      <p>All forms are 2015 deployments with 2014 data for testing</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-4">
-        <h3>Twitter</h3>
-        <div id="twitterwidget">
-        <a class="twitter-timeline" href="https://twitter.com/search?q=%23ssma" data-widget-id="302179477889351680">Tweets about "#ssma"</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><br>  
-        </div>
-        <div id="recent-feed">
-          <h3>Recent SSMA coverage</h3>
-          <ul>
-            <li><a href="">Headline</a></li>
-            <li><a href="">Headline</a></li>
-            <li><a href="">Headline</a></li>
-            <li><a href="">Headline</a></li>
-          </ul>
+      <div class="col-xs-12 col-lg-6">
+        <div id="nomination">
+
+
+
+<!-- Begin Caspio Deploy Code (for inserting in body) -->
+<?php require_once('dist/dpload.txt');dpload('http://bridge.caspio.net/','e76c0000b5e4cf5c9a154b9d82a5','i');?>
+<!-- End Caspio Deploy Code -->
+
+
         </div>
       </div>
-      <div class="col-xs-4">
-        <h3>Nominations</h3>
-        <div class="pull-right" style="margin-left:10px;"><img src="assets/appicon.png"></div>
-        <p>Lucas ipsum dolor sit amet coway reach jade yuvernian gank echani secura vella bertroff kal. Duros thistleborn annoo jabba leia stele calrissian. Coruscant winter cerean yuzzem. Gerb aruzan binks shadda massans gallia sing skywalker teek. Dexter bollux shmi malastare mirialan. Dexter mimbanite tc-14 coruscant dak sly hoojib lama dressellian. Aparo quinlan gunray tsavong maris. Durge lowbacca tyber gamorrean argazdan. Ken tavion shi'ido rattatak. Palpatine gen'dai sith omas. Skakoan sanyassan calamari hutt freedon skirata roonan dooku moff.</p>
-      </div>
-      <div class="col-xs-4">
-        <h3>Search and comment</h3>
-        <div>
-          <p>2015 deploy w/ 2014 data. (will need to update destination).</p>
-          <div id="cbe76c0000d9c628e1315c4b3da34e"></div>
+      <div class="col-xs-12 col-lg-6">
+        <div id="comment-search">
+          <div id="cbe76c0000909e1b00d71241839cf8"></div>
           <script type="text/javascript" src="http://b1.caspio.com/scripts/embed.js"></script>
-          <script type="text/javascript">try{f_cbload(false, "b1.caspio.com", "e76c0000d9c628e1315c4b3da34e");}catch(v_e){;}</script>
-          <div id="cxkg"><a href="http://b1.caspio.com/dp.asp?AppKey=e76c0000d9c628e1315c4b3da34e">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
+          <script type="text/javascript">try{f_cbload(false, "b1.caspio.com", "e76c0000909e1b00d71241839cf8");}catch(v_e){;}</script>
+          <div id="cxkg"><a href="http://b1.caspio.com/dp.asp?AppKey=e76c0000909e1b00d71241839cf8">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
         </div>
-        <h3>Judging</h3>
-        <p>Lucas ipsum dolor sit amet coway reach jade yuvernian gank echani secura vella bertroff kal. Duros thistleborn annoo jabba leia stele calrissian. Coruscant winter cerean yuzzem. Gerb aruzan binks shadda massans gallia sing skywalker teek. Dexter bollux shmi malastare mirialan. Dexter mimbanite tc-14 coruscant dak sly hoojib lama dressellian. Aparo quinlan gunray tsavong maris. Durge lowbacca tyber gamorrean argazdan. Ken tavion shi'ido rattatak. Palpatine gen'dai sith omas. Skakoan sanyassan calamari hutt freedon skirata roonan dooku moff.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <div id="comment-results">
+          <!-- xs version -->
+          <div class="visible-xs">
+          <div id="cbe76c000089c119575cb7488282bb"></div>
+          <script type="text/javascript" src="http://b1.caspio.com/scripts/embed.js"></script>
+          <script type="text/javascript">try{f_cbload(false, "b1.caspio.com", "e76c000089c119575cb7488282bb");}catch(v_e){;}</script>
+          <div id="cxkg"><a href="http://b1.caspio.com/dp.asp?AppKey=e76c000089c119575cb7488282bb">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
+          </div>
+          <div class="hidden-xs">
+          <!-- sm and up -->
+          <div id="cbe76c00000cd41013782e4078af1a"></div>
+          <script type="text/javascript" src="http://b1.caspio.com/scripts/embed.js"></script>
+          <script type="text/javascript">try{f_cbload(false, "b1.caspio.com", "e76c00000cd41013782e4078af1a");}catch(v_e){;}</script>
+          <div id="cxkg"><a href="http://b1.caspio.com/dp.asp?AppKey=e76c00000cd41013782e4078af1a">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
+          </div>
+        </div>
       </div>
     </div>
 
