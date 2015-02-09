@@ -1,5 +1,5 @@
 {
-  "name": "SXSW-sideparties",
+  "name": "ssma",
   "description": "Caspio combination database",
   "devDependencies": {
     "grunt": "^0.4.5",
