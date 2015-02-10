@@ -84,7 +84,8 @@
     <div class="row">
       <div class="col-lg-12 header">
       <h1 id="pagetitle">Statesman Social Media Awards</h1>
-      <p>All forms are 2015 deployments with 2014 data for testing</p>
+      <div class="alert alert-danger" role="alert">Using 2014 data to show functionality. I'll clean out those tables for launch.</div>
+
       </div>
     </div>
     <div class="row">
