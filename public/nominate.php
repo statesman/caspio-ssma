@@ -109,6 +109,18 @@
 
     <script src="dist/scripts.js"></script>
 
+  <script type="text/javascript">
+      var ssmaText =  "I just nominated " + ssmaName + " for the Statesman Social Media Awards. Make your own nomination: http:\/\/statesman.com\/ssma";
+    var ssmaTextenc = encodeURI(ssmaText);
+    var ssmaHash = "SSMA";
+    var ssmaTweet = "https://twitter.com/intent/tweet?text=" + ssmaTextenc + "&hashtags=" + ssmaHash;
+    var ssmaURL = encodeURI("http://projects.statesman.com/ssma/");
+    var ssmaFB = "https://www.facebook.com/sharer.php?display=popup&u=" + ssmaURL;
+    var ssmaGP = "https://plus.google.com/share?url=" + ssmaURL;
+    var output = "<a href=\""+ ssmaTweet + "\" target=\"_blank\"><i class=\"fa fa-twitter-square\"></i></a> &nbsp; &nbsp; &nbsp; <a href=\"" + ssmaFB + "\" target=\"_blank\"><i class=\"fa fa-facebook-square\"></i></a> &nbsp; &nbsp; &nbsp; <a href=\"" + ssmaGP +"\" target=\"_blank\"><i class=\"fa fa-google-plus-square\"></i> ";
+    $('#share-tools').html(output);
+  </script>
+
 
   <?php if($_SERVER['SERVER_NAME'] === 'localhost'): ?>
     <script src="//localhost:35729/livereload.js"></script>
