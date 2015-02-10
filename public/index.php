@@ -82,6 +82,8 @@
 
   <div class="container">
     <div class="row">
+ 
+
       <div class="col-lg-12 header">
       <h1 id="pagetitle">Statesman Social Media Awards</h1>
       <p>Lucas ipsum dolor sit amet boba calrissian amidala sith dooku solo moff organa obi-wan windu. Gamorrean binks wedge darth. Mon darth mon kit ponda solo. Moff watto ackbar mothma moff anakin. Lando skywalker lars fett calrissian lars organa. Organa kenobi wedge darth jawa skywalker anakin. Twi'lek kit darth calamari lando kamino droid. Darth jawa fett grievous maul. Palpatine obi-wan leia tusken raider dagobah. Twi'lek qui-gon boba antilles yoda thrawn. Wampa luuke wampa skywalker. Moff ponda ackbar dagobah kit lobot jinn solo.</p>
@@ -89,7 +91,46 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-4">
+       <div class="col-xs-12 col-sm-4">
+        <h3>Search and comment</h3>
+        <div>
+          <div class="caspio" id="cbe76c0000d9c628e1315c4b3da34e"></div>
+          <script type="text/javascript" src="http://b1.caspio.com/scripts/embed.js"></script>
+          <script type="text/javascript">try{f_cbload(false, "b1.caspio.com", "e76c0000d9c628e1315c4b3da34e");}catch(v_e){;}</script>
+          <div id="cxkg"><a href="http://b1.caspio.com/dp.asp?AppKey=e76c0000d9c628e1315c4b3da34e">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
+        </div>
+        <h3>Judging</h3>
+        <p>Lucas ipsum dolor sit amet coway reach jade yuvernian gank echani secura vella bertroff kal. Duros thistleborn annoo jabba leia stele calrissian. Coruscant winter cerean yuzzem. Gerb aruzan binks shadda massans gallia sing skywalker teek. Dexter bollux shmi malastare mirialan. Dexter mimbanite tc-14 coruscant dak sly hoojib lama dressellian. Aparo quinlan gunray tsavong maris. Durge lowbacca tyber gamorrean argazdan. Ken tavion shi'ido rattatak. Palpatine gen'dai sith omas. Skakoan sanyassan calamari hutt freedon skirata roonan dooku moff.</p>
+      </div>
+
+
+      <div class="col-xs-12 col-sm-4">
+        <h3>Nominations</h3>
+        <div class="pull-right" style="margin-left:10px;"><img src="assets/appicon.png"></div>
+            <p> Use our <a href="nominate.php">online nomination form</a> to nominate your favorite person, company or group for a Statesman Social Media Award, and tell us why they are a star on social media and the web – or <a href="search.php">comment on the nominees</a> that have already been made! We are accepting nominees from <strong>XX to XX, 2015</strong>. We'll pick a top 10 and an overall winner, who will be featured in an article in the Austin American-Statesman.</p>
+            <p>All of our past winners came from public nominations, and it's no different this year. However, we do ask that nominees reside in Bastrop, Blanco, Caldwell, Hays, Travis and Williamson counties. Past winners are eligible to be nominated again. Check out the 2014 <a href="http://www.statesman.com/news/lifestyles/rooster-teeth-wins-statesmans-top-social-media-hon/nd6Xf/">top winner</a> and <a href="http://www.statesman.com/news/lifestyles/allens-boots-homeaway-among-10-statesman-social-me/nd6Zz/">finalists</a>.</p>
+        <h3>A look at the 2014 winners</h3> 
+        <div class="embed-responsive embed-responsive-custom">
+          <script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+          <object id="myExperience3965539662001" class="BrightcoveExperience embed-responsive-item">
+            <param name="bgcolor" value="#FFFFFF" />
+            <param name="width" value="300" />
+            <param name="height" value="365" />
+            <param name="playerID" value="52242462001" />
+            <param name="playerKey" value="AQ~~,AAAAAFSNjfU~,4oPitrNpKqx5R7KUpPe0nXQVA_bwukUD" />
+            <param name="isVid" value="true" />
+            <param name="isUI" value="true" />
+            <param name="dynamicStreaming" value="true" />
+            <param name="@videoPlayer" value="3965539662001" />
+            <param name="includeAPI" value="true" />
+            <param name="templateLoadHandler" value="analytics.bcoveAddPlayer" />
+            <param name="templateReadyHandler" value="analytics.bcovePlayerReady" />
+          </object>
+          <script type="text/javascript">brightcove.createExperiences();</script>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4">
         <h3>Twitter</h3>
         <div id="twitterwidget">
         <a class="twitter-timeline" href="https://twitter.com/search?q=%23ssma" data-widget-id="302179477889351680">Tweets about "#ssma"</a>
@@ -131,28 +172,9 @@
      
         </div>
       </div>
-      <div class="col-xs-4">
-        <h3>Nominations</h3>
-        <div class="pull-right" style="margin-left:10px;"><img src="assets/appicon.png"></div>
-            <p> Use our <a href="nominate.php">online nomination form</a> to nominate your favorite person, company or group for a Statesman Social Media Award, and tell us why they are a star on social media and the web – or <a href="search.php">comment on the nominees</a> that have already been made! We are accepting nominees from <strong>XX to XX, 2015</strong>. We'll pick a top 10 and an overall winner, who will be featured in an article in the Austin American-Statesman.</p>
-            <p>All of our past winners came from public nominations, and it's no different this year. However, we do ask that nominees reside in Bastrop, Blanco, Caldwell, Hays, Travis and Williamson counties. Past winners are eligible to be nominated again. Check out the 2014 <a href="http://www.statesman.com/news/lifestyles/rooster-teeth-wins-statesmans-top-social-media-hon/nd6Xf/">top winner</a> and <a href="http://www.statesman.com/news/lifestyles/allens-boots-homeaway-among-10-statesman-social-me/nd6Zz/">finalists</a>.</p>
-      </div>
-      <div class="col-xs-4">
-        <h3>Search and comment</h3>
-        <div>
-          <p>2015 deploy w/ 2014 data. (will need to update destination).</p>
-          <div id="cbe76c0000d9c628e1315c4b3da34e"></div>
-          <script type="text/javascript" src="http://b1.caspio.com/scripts/embed.js"></script>
-          <script type="text/javascript">try{f_cbload(false, "b1.caspio.com", "e76c0000d9c628e1315c4b3da34e");}catch(v_e){;}</script>
-          <div id="cxkg"><a href="http://b1.caspio.com/dp.asp?AppKey=e76c0000d9c628e1315c4b3da34e">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
-        </div>
-        <h3>Judging</h3>
-        <p>Lucas ipsum dolor sit amet coway reach jade yuvernian gank echani secura vella bertroff kal. Duros thistleborn annoo jabba leia stele calrissian. Coruscant winter cerean yuzzem. Gerb aruzan binks shadda massans gallia sing skywalker teek. Dexter bollux shmi malastare mirialan. Dexter mimbanite tc-14 coruscant dak sly hoojib lama dressellian. Aparo quinlan gunray tsavong maris. Durge lowbacca tyber gamorrean argazdan. Ken tavion shi'ido rattatak. Palpatine gen'dai sith omas. Skakoan sanyassan calamari hutt freedon skirata roonan dooku moff.</p>
-      </div>
+
+
     </div>
-
-
-
   </div>
 
     <?php /* Banner ad */ ?>
