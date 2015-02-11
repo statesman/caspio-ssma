@@ -87,7 +87,7 @@ module.exports = function(grunt) {
     },
 
     ftpush: {
-      build: {
+      stage: {
         auth: {
           host: 'host.coxmediagroup.com',
           port: 21,
@@ -95,6 +95,18 @@ module.exports = function(grunt) {
         },
         src: 'public',
         dest: '/stage_aas/projects/ssma',
+        exclusions: ['dist/tmp'],
+        simple: false,
+        useList: false
+      },
+      prod: {
+        auth: {
+          host: 'host.coxmediagroup.com',
+          port: 21,
+          authKey: 'key1'
+        },
+        src: 'public',
+        dest: '/stage_aas/projects/ssma-test/',
         exclusions: ['dist/tmp'],
         simple: false,
         useList: false
@@ -114,5 +126,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-bootlint');
 
   grunt.registerTask('default', ['copy', 'less', 'jshint','bootlint','uglify']);
+  grunt.registerTask('stage', ['default','ftpush:stage']);
+  grunt.registerTask('prod', ['default','ftpush:prod']);
 
 };
