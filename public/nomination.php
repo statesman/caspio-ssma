@@ -60,7 +60,8 @@
       </button>
 
         <a class="navbar-brand" href="http://www.statesman.com/" target="_blank">
-          <img width="273" height="26" src="assets/logo.png">
+        <img class="visible-xs visible-sm" width="103" height="26" src="assets/logo-short-black.png" />
+        <img class="hidden-xs hidden-sm" width="273" height="26" src="assets/logo.png" />
         </a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
