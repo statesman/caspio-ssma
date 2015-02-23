@@ -1,8 +1,13 @@
 Statesman Social Media Awards
 ==============================
 
+## Mobile play
+Pages are responsive via Bootstrap, and in some cases specific Caspio datapages were made and hidden/shown based on the media query.
 
-
+## Social play
+* Standard social buttons at the top of the page.
+* will do specific share logo
+* There is wording on the response page when a reader submits a nomination that they can copy 'n' paste to tweet. A specific tweet button per entry is difficult at this point because of the url structure of Caspio.
 
 ## Steps when you set up a project
 
