@@ -7,7 +7,7 @@
   $meta = array(
     "title" => "2015 Statesman Social Media Awards | Statesman.com",
     "description" => "The Austin American-Statesman is honoring the best in social media in Central Texas. Use our online nomination form to nominate your favorite person, company or group for a Statesman Social Media Award.",
-    "thumbnail" => "http://projects.statesman.com/then-and-now/paramount/assets/share.png", // needs update
+    "thumbnail" => "http://projects.statesman.com/ssma/assets/share.jpg",
     "shortcut_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_5126cb2068bd43d1ab4e17660ac48255.ico",
     "apple_touch_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_fa2d2d6e73614535b997734c7e7d2287.png",
     "url" => "http://projects.statesman.com/ssma/",
@@ -90,7 +90,9 @@
       <h1 id="pagetitle">Statesman Social Media Awards</h1>
       <p>The <strong>Statesman Social Media Awards</strong> is celebrating its 7th year honoring the best of social media in and around Austin!</p>
       <p>The bar for what makes a social media rockstar has been raised every year, and we are excited to see who gets nominated in 2015! Do you know someone who deserves to be recognized for their stellar use of social media? Whether in business or just for fun, we want to hear who YOU think is making a difference and living on the cutting edge of social media, so we can give them the recognition they deserve!</p>
-      <div class="alert alert-danger" role="alert">Using 2014 data to show functionality. I'll clean out those tables for launch.</div>
+
+<!--      <div class="alert alert-danger" role="alert">Using 2014 data to show functionality. I'll clean out those tables for launch.</div> -->
+
       </div>
     </div>
     <div class="row">
