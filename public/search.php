@@ -70,6 +70,7 @@
         <li><a href="nominate.php">Nominate</a></li>
         <li class="active"><a href="search.php">Search & Comment</a></li>
         <li><a href="rules.php">Rules</a></li>
+        <li class="visible-xs small-social"><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a><a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-google-plus"></i></a></li>
       </ul>
         <ul class="nav navbar-nav navbar-right social hidden-xs">
           <li><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a></li>
@@ -89,7 +90,7 @@
     </div>
 	<div class="row row-centered">
 		<div class="col-xs-12 col-lg-8 col-centered">
-			<div class="pull-right" style="margin-left:10px;"><img src="assets/appicon.png"></div>
+			<div class="pull-right" style="margin-left:10px;"><img src="assets/appicon.jpg"></div>
 			<h3>Search and comment</h3>
 			<p>Check out the list of nominees for the Statesman Social Media Awards. Pick a nominee from the list and submit to read the nomination entry and leave your own comments and rating.</p>
 			<div class="caspio clearfix">
