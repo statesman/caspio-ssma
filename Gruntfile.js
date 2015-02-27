@@ -106,7 +106,7 @@ module.exports = function(grunt) {
           authKey: 'key1'
         },
         src: 'public',
-        dest: '/stage_aas/projects/ssma-test/',
+        dest: '/prod_aas/projects/ssma/',
         exclusions: ['dist/tmp'],
         simple: false,
         useList: false
