@@ -83,7 +83,7 @@
   <div class="container">
     <div class="row row-centered">
       <div class="col-lg-8 col-centered header">
-      <h1 id="pagetitle">Statesman Social Media Awards</h1>
+      <h1 id="pagetitle">2015 Statesman Social Media Awards</h1>
 <h2>OFFICIAL AWARDS RULES</h2>
 <p>1. NO PURCHASE REQUIRED. A PURCHASE WILL NOT INCREASE YOUR ODDS OF WINNING AN AWARD. ALL FEDERAL, STATE, LOCAL AND MUNICIPAL LAWS AND REGULATIONS APPLY. VOID WHERE PROHIBITED.</p>
 <p>2. Eligibility. Subject to the additional restrictions below, the awards are open to Texas residents of Bastrop, Blanco, Caldwell, Hays, Travis and Williamson counties, 18 years or older at the time of entry. Employees of Cox Enterprises, Inc. and each of its respective affiliated companies, and advertising and promotional agencies, and the immediate family members of, and any persons domiciled with, any such employees, are not eligible for an award. The term "immediate family members" includes spouses, parents, grandparents, siblings, children, and grandchildren.</p>

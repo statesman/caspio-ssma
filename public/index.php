@@ -87,7 +87,7 @@
  
 
       <div class="col-lg-12 header">
-      <h1 id="pagetitle">Statesman Social Media Awards</h1>
+      <h1 id="pagetitle">2015 Statesman Social Media Awards</h1>
       <p>The <strong>Statesman Social Media Awards</strong> is celebrating its 7th year honoring the best of social media in and around Austin!</p>
       <p>The bar for what makes a social media rockstar has been raised every year, and we are excited to see who gets nominated in 2015! Do you know someone who deserves to be recognized for their stellar use of social media? Whether in business or just for fun, we want to hear who YOU think is making a difference and living on the cutting edge of social media, so we can give them the recognition they deserve!</p>
 

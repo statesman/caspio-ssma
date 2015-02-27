@@ -83,9 +83,7 @@
   <div class="container">
     <div class="row row-centered">
       <div class="col-lg-8 col-centered header">
-      <h1 id="pagetitle">Statesman Social Media Awards</h1>
-      <div class="alert alert-danger" role="alert">Using 2014 data to show functionality. I'll clean out those tables for launch.</div>
-
+        <h1 id="pagetitle">2015 Statesman Social Media Awards</h1>
       </div>
     </div>
 	<div class="row row-centered">
