@@ -88,7 +88,7 @@
     </div>
 	<div class="row row-centered">
 		<div class="col-xs-12 col-lg-8 col-centered">
-    <h3>Nominations have close for the 2015 awards. You can still view and comment on <a href="search.php">existing entries</a>.</h3>
+    <h3>Nominations have closed for the 2015 awards. You can still view and comment on <a href="search.php">existing entries</a>.</h3>
 
 <!-- 
 			<div class="caspio" id="cbe76c0000c7ef755943dd4a04a36c"></div>
