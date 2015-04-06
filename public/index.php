@@ -67,7 +67,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="./">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="nominate.php">Nominate</a></li>
+        <!-- <li><a href="nominate.php">Nominate</a></li> -->
         <li><a href="search.php">Search & Comment</a></li>
         <li><a href="rules.php">Rules</a></li>
         <li class="visible-xs small-social"><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a><a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-google-plus"></i></a></li>
@@ -89,7 +89,7 @@
       <div class="col-lg-12 header">
       <h1 id="pagetitle">2015 Statesman Social Media Awards</h1>
       <p>The <strong>Statesman Social Media Awards</strong> is celebrating its 7th year honoring the best of social media in and around Austin!</p>
-      <p>The bar for what makes a social media rockstar has been raised every year, and we are excited to see who gets nominated in 2015! Do you know someone who deserves to be recognized for their stellar use of social media? Whether in business or just for fun, we want to hear who YOU think is making a difference and living on the cutting edge of social media, so we can give them the recognition they deserve!</p>
+      <p>The bar for what makes a social media rockstar has been raised every year, and we are excited to judge this year's slate of nominees. <!-- see who gets nominated in 2015! Do you know someone who deserves to be recognized for their stellar use of social media? Whether in business or just for fun, we want to hear who YOU think is making a difference and living on the cutting edge of social media, so we can give them the recognition they deserve!--></p>
 
 <!--      <div class="alert alert-danger" role="alert">Using 2014 data to show functionality. I'll clean out those tables for launch.</div> -->
 
@@ -112,9 +112,10 @@
       <div class="col-xs-12 col-sm-4">
         <h3>Nominations</h3>
         <div class="pull-right" style="margin-left:10px;"><img src="assets/appicon.jpg"></div>
-            <p> Use our <a href="nominate.php">online nomination form</a> to nominate your favorite person, company or group for a Statesman Social Media Award, and tell us why they are a star on social media and the web – or <a href="search.php">comment on the nominees</a> that have already been made! We are accepting nominees from <strong>March 1 to April 6, 2015</strong>. We'll pick a top 10 and an overall winner, who will be featured in an article in the Austin American-Statesman.</p>
+            <p>Nominations have closed for the Statesman Social Media Awards, but you can still <a href="search.php">rate and comment on existing nominees</a>. </p>
+            <!-- <p> Use our <a href="nominate.php">online nomination form</a> to nominate your favorite person, company or group for a Statesman Social Media Award, and tell us why they are a star on social media and the web – or <a href="search.php">comment on the nominees</a> that have already been made! We are accepting nominees from <strong>March 1 to April 6, 2015</strong>. We'll pick a top 10 and an overall winner, who will be featured in an article in the Austin American-Statesman.</p>
             <p>Note: We want to thank all of the people who have nominated so far! We have extended the nominations deadline to allow more time for people who were unable to nominate or gain steam for their nomination during Spring Break or South by Southwest.</p>
-            <p>All of our past winners came from public nominations, and it's no different this year. However, we do ask that nominees reside in Bastrop, Blanco, Caldwell, Hays, Travis and Williamson counties. Past winners are eligible to be nominated again. Check out the 2014 <a href="http://www.statesman.com/news/lifestyles/rooster-teeth-wins-statesmans-top-social-media-hon/nd6Xf/">top winner</a> and <a href="http://www.statesman.com/news/lifestyles/allens-boots-homeaway-among-10-statesman-social-me/nd6Zz/">finalists</a>.</p>
+            <p>All of our past winners came from public nominations, and it's no different this year. However, we do ask that nominees reside in Bastrop, Blanco, Caldwell, Hays, Travis and Williamson counties. Past winners are eligible to be nominated again. Check out the 2014 <a href="http://www.statesman.com/news/lifestyles/rooster-teeth-wins-statesmans-top-social-media-hon/nd6Xf/">top winner</a> and <a href="http://www.statesman.com/news/lifestyles/allens-boots-homeaway-among-10-statesman-social-me/nd6Zz/">finalists</a>.</p> -->
         <h3>A look at the 2014 winners</h3> 
         <div class="embed-responsive embed-responsive-custom">
           <script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>

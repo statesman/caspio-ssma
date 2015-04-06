@@ -67,7 +67,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="./">Home <span class="sr-only">(current)</span></a></li>
-        <li class="active"><a href="nominate.php">Nominate</a></li>
+        <!-- <li class="active"><a href="nominate.php">Nominate</a></li> -->
         <li><a href="search.php">Search & Comment</a></li>
         <li><a href="rules.php">Rules</a></li>
         <li class="visible-xs small-social"><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a><a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-google-plus"></i></a></li>
@@ -88,11 +88,15 @@
     </div>
 	<div class="row row-centered">
 		<div class="col-xs-12 col-lg-8 col-centered">
+    <h3>Nominations have close for the 2015 awards. You can still view and comment on <a href="search.php">existing entries</a>.</h3>
+
+<!-- 
 			<div class="caspio" id="cbe76c0000c7ef755943dd4a04a36c"></div>
 			<script type="text/javascript" src="http://b1.caspio.com/scripts/embed.js"></script>
 			<script type="text/javascript">try{f_cbload(false, "b1.caspio.com", "e76c0000c7ef755943dd4a04a36c");}catch(v_e){;}</script>
 			<div id="cxkg"><a href="http://b1.caspio.com/dp.asp?AppKey=e76c0000c7ef755943dd4a04a36c">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
 		</div>
+-->
 	</div>
 
 
