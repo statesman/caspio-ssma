@@ -97,6 +97,8 @@
     </div>
     <div class="row">
        <div class="col-xs-12 col-sm-4">
+        <h3><a href="http://tech.blog.austin360.com/2015/05/05/meet-the-2015-statesman-social-media-awards-top-10/">Meet the 2015 Top 10</a></h3>
+        <p>We have picked from your nominees our Top 10 finalists who we think represent some of the best social media in and around Austin – and once again, each of the judges has found new users to follow. Our picks range from individuals who impressed us with their savvy, to big businesses finding new and interesting ways to connect with their customers, to social media accounts that are all about community building! <a href="http://tech.blog.austin360.com/2015/05/05/meet-the-2015-statesman-social-media-awards-top-10/">Read about the top 10 here</a>, as well as our reasons for shining a spotlight on them – then go check out their social media for yourself.</p>
         <h3>Search and comment</h3>
         <div>
           <div class="caspio" id="cbe76c0000d9c628e1315c4b3da34e"></div>
