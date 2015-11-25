@@ -97,6 +97,8 @@
     </div>
     <div class="row">
        <div class="col-xs-12 col-sm-4">
+       <h3>Our overal winner: Austin Convention and Visitor’s Bureau</h3>
+       <p>Given Austin’s high profile, it doesn’t seem like a tough job to make the city look good on the Web. But the Austin Convention and Visitors Bureau team for <a href="http://www.austintexas.org/">Visit Austin</a>, led by Katie Cook, still puts out information – from gorgeously produced YouTube videos to highly relevant Tweets to maps to shopping deals – that are useful not only for visitors, but for locals as well. From the <a href="http://www.austintexas.org/austin-insider-blog/">Austin Insider Blog</a> to a sumptuous <a href="https://www.instagram.com/visitaustintx/">Instagram account</a> (check out their <a href="http://www.austintexas.org/austin-insider-blog/austin-instagram-walk/">Instagram Walks</a>), Austin rarely looks better than it does through the lens of Visit Austin’s expansive social media efforts. As one commenter on her nomination said, “Katie (Cook) gives way more than she gets – and is totally committed to the city and social media community. She is a breath of fresh air!” — Omar Gallaga</p>
         <h3><a href="http://tech.blog.austin360.com/2015/05/05/meet-the-2015-statesman-social-media-awards-top-10/">Meet the 2015 Top 10</a></h3>
         <p>We have picked from your nominees our Top 10 finalists who we think represent some of the best social media in and around Austin – and once again, each of the judges has found new users to follow. Our picks range from individuals who impressed us with their savvy, to big businesses finding new and interesting ways to connect with their customers, to social media accounts that are all about community building! <a href="http://tech.blog.austin360.com/2015/05/05/meet-the-2015-statesman-social-media-awards-top-10/">Read about the top 10 here</a>, as well as our reasons for shining a spotlight on them – then go check out their social media for yourself.</p>
         <h3>Search and comment</h3>
@@ -106,8 +108,6 @@
           <script type="text/javascript">try{f_cbload(false, "b1.caspio.com", "e76c0000d9c628e1315c4b3da34e");}catch(v_e){;}</script>
           <div id="cxkg"><a href="http://b1.caspio.com/dp.asp?AppKey=e76c0000d9c628e1315c4b3da34e">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
         </div>
-        <h3>Judging</h3>
-        <p>Judges for this year's awards will be Statesman social media editor <a href="https://twitter.com/jaxstone">Jackie Stone</a>, food writer <a href="https://twitter.com/broylesa">Addie Broyles</a>, tech culture writer <a href="https://twitter.com/omarg">Omar Gallaga</a> and Barbara Dunkleman from Rooster Teeth, our 2014 overall winner.</p>
       </div>
 
 
@@ -137,6 +137,9 @@
           </object>
           <script type="text/javascript">brightcove.createExperiences();</script>
         </div>
+        <h3>Judging</h3>
+        <p>Judges for this year's awards will be Statesman social media editor <a href="https://twitter.com/jaxstone">Jackie Stone</a>, food writer <a href="https://twitter.com/broylesa">Addie Broyles</a>, tech culture writer <a href="https://twitter.com/omarg">Omar Gallaga</a> and Barbara Dunkleman from Rooster Teeth, our 2014 overall winner.</p>
+
       </div>
 
       <div class="col-xs-12 col-sm-4">
