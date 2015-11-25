@@ -91,7 +91,7 @@ module.exports = function(grunt) {
         auth: {
           host: 'host.coxmediagroup.com',
           port: 21,
-          authKey: 'key1'
+          authKey: 'cmg'
         },
         src: 'public',
         dest: '/stage_aas/projects/ssma',
@@ -103,7 +103,7 @@ module.exports = function(grunt) {
         auth: {
           host: 'host.coxmediagroup.com',
           port: 21,
-          authKey: 'key1'
+          authKey: 'cmg'
         },
         src: 'public',
         dest: '/prod_aas/projects/ssma/',
