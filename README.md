@@ -1,6 +1,12 @@
 Statesman Social Media Awards
 ==============================
 
+## Site mothballed
+
+Due to the cancellation of our Caspio contract, this site is mothballed. This `master` branch is as it was in it's last published iteration. There is a `mothball` branch that says the site is closed and that is what is published.
+
+-----
+
 ## Mobile play
 Pages are responsive via Bootstrap, and in some cases specific Caspio datapages were made and hidden/shown based on the media query.
 
